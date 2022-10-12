@@ -1,0 +1,71 @@
+/* Universal Selector */
+*{
+    padding: 0px;
+    margin:  0px;
+    box-sizing: border-box;
+}
+
+/* Index Page */
+html{
+    overflow-x: hidden;
+}
+
+body{
+    scroll-behavior:smooth;
+}
+
+/* Nav Bar */
+#nav{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+#nav li{
+    margin-top: 65px;
+    margin-bottom: 0px;
+    margin-left: 65px;
+    padding: 10px 30px;
+    float: left;
+    list-style: none;
+    /* font-size: 25px; */
+}
+
+#nav li a{
+    text-decoration: none;
+    color: aliceblue    ;
+}
+
+
+/* Home Section */
+#Home{
+    height: 600px;
+    /* width: 100%; */
+    background-color: bisque;
+}
+/* About Section */
+#About{
+    height: 300px;
+    width: 100%;
+    background-color:cadetblue;
+}
+/* Services Section */
+#Services{
+    height: 300px;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+/* Contact Us Form */
+#Contact{
+    height: 300px;
+    width: 100%;
+    background-color:burlywood;
+}
+
+#frm fieldset p{
+    display: inline;
+}
+
+
